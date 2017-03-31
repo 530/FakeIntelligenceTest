@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Jeremiah Howell -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+		<title>Intelligence Test</title>
+    <link rel="stylesheet" href="p02.css"/>
+		<script type="text/javascript" src="p02.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-
+		BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body lang="en-US">
+
+	<div class="container">
+	  <h1 class="font">Intelligence Test -- Can you survive?</h1>
+		
+	  <p>Try your best to solve these 3 questions... They will get progressively harder, but don't let that
+		deter you from killing it. There are unlimited attempts until you submit your answer.</p>
+		
+		<h4>Examples:</h4>
+		<h4>6 + 4 = 210</h4>
+		<h4>9 + 2 = 711</h4>
+		<h4>8 + 4 = 412</h4>
+		<h4>10 + 6 = 416</h4>
+		<h4>15 + 3 = 1218</h4>
+		<h4>150 + 40 = ___</h4>
+		
+	  <form>
+	    <div class="form-group" id="userGroup">
+				
+	      <label for="user">Answer Below</label>
+	      <input size="40" type="text" class="form-control" id="user" placeholder="Answer" oninput="checkQ1()">
+	      <span id="userError" class="control-label hidden-message"></span><br>
+        <button type="button" onclick="question2()">Question #2</button>
+	    
+			</div>
+	  </form>
+		
+			<div><a style="color: #0000FF" href="https://mox.polimi.it/wp-content/uploads/sfondo.jpg"><u>[Image]</u></a></div>
+		
+	</div>
+  </body>
+</html>
